@@ -3,7 +3,8 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-List<FlowerBox> FlowerBoxes = new List<FlowerBox>();
+
+//List<FlowerBox> FlowerBoxes = new List<FlowerBox>();
 List<Customer> Customeres = new List<Customer>();
 List<HomeAdress> Adresses= new List<HomeAdress>();
 FlowerBox bak;
@@ -22,9 +23,9 @@ while (loop)
     if (int.TryParse(input, out userInput))
     {
         switch (userInput)
-        { 
+        {
         case 1:
-               
+
                 Console.Clear();
                 try
                 {
@@ -52,11 +53,11 @@ while (loop)
 1- Balk.
 2- Kubus.
 3- Cilinder.");
-                    string vormInput = Console.ReadLine();
+                    int vormInput = int.Parse(Console.ReadLine());
                     switch (vormInput)
                     {
-                        case "Balk":
-                            
+                        case 1:
+
                             Console.WriteLine("Wat is de lengte van de product?");
                             int length = int.Parse(Console.ReadLine());
                             Console.WriteLine("Wat is de breedte van de product?");
@@ -64,43 +65,42 @@ while (loop)
                             Console.WriteLine("Wat is de hoogte van de product?");
                             int height = int.Parse(Console.ReadLine());
                             bak = new FlowerBox(length, width, width);
-                            FlowerBoxes.Add(bak);
+                            Order.FlowerBoxList.Add(bak);
                             klantnummer++;
                             Console.Clear();
                             break;
 
-                        case "Kubus":
-                            
+                        case 2:
+
                             Console.WriteLine("Wat is de zijde van de product?");
                             int flank = int.Parse(Console.ReadLine());
                             bak = new FlowerBox(flank);
-                            FlowerBoxes.Add(bak);
-
+                            Order.FlowerBoxList.Add(bak);
                             klantnummer++;
                             Console.Clear();
                             break;
 
-                        case "Cilinder":
-                            
+                        case 3:
+
                             Console.WriteLine("Wat is de diameter van de product?");
                             int diameter = int.Parse(Console.ReadLine());
                             Console.WriteLine("Wat is de hoogte van de product?");
                             height = int.Parse(Console.ReadLine());
                             bak = new FlowerBox(diameter, height);
-                            FlowerBoxes.Add(bak);
+                            Order.FlowerBoxList.Add(bak);
                             klantnummer++;
                             Console.Clear();
                             break;
 
                         default:
                             Console.Clear();
-                            Console.WriteLine("Kies graag tussen (Blak, Kubus, Cilinder)");
+                            Console.WriteLine("Kies graag tussen (1(Balk), 2(Kubus), 3(Cilinder))");
                             Console.WriteLine("druk op enter om terug naar het menu.");
                             Console.ReadKey();
                             Console.Clear();
                             break;
                     }
-                    
+
                 }
                 catch (ArgumentException ex)
                 {
@@ -182,7 +182,7 @@ while (loop)
                 Console.ReadKey();
                 Console.Clear();
                 break;
-                
+
             case 6:
             case 7:
                 loop = false;
@@ -207,5 +207,5 @@ while (loop)
     }
 
 
-    
+
 }
