@@ -1,0 +1,15 @@
+C:\bitacademy\Leerjaar 2\C# Novic\C# periode 6\bin\Debug\net6.0\oop.exe
+C:\bitacademy\Leerjaar 2\C# Novic\C# periode 6\bin\Debug\net6.0\oop.deps.json
+C:\bitacademy\Leerjaar 2\C# Novic\C# periode 6\bin\Debug\net6.0\oop.runtimeconfig.json
+C:\bitacademy\Leerjaar 2\C# Novic\C# periode 6\bin\Debug\net6.0\oop.dll
+C:\bitacademy\Leerjaar 2\C# Novic\C# periode 6\bin\Debug\net6.0\oop.pdb
+C:\bitacademy\Leerjaar 2\C# Novic\C# periode 6\obj\Debug\net6.0\oop.csproj.AssemblyReference.cache
+C:\bitacademy\Leerjaar 2\C# Novic\C# periode 6\obj\Debug\net6.0\oop.GeneratedMSBuildEditorConfig.editorconfig
+C:\bitacademy\Leerjaar 2\C# Novic\C# periode 6\obj\Debug\net6.0\oop.AssemblyInfoInputs.cache
+C:\bitacademy\Leerjaar 2\C# Novic\C# periode 6\obj\Debug\net6.0\oop.AssemblyInfo.cs
+C:\bitacademy\Leerjaar 2\C# Novic\C# periode 6\obj\Debug\net6.0\oop.csproj.CoreCompileInputs.cache
+C:\bitacademy\Leerjaar 2\C# Novic\C# periode 6\obj\Debug\net6.0\oop.dll
+C:\bitacademy\Leerjaar 2\C# Novic\C# periode 6\obj\Debug\net6.0\refint\oop.dll
+C:\bitacademy\Leerjaar 2\C# Novic\C# periode 6\obj\Debug\net6.0\oop.pdb
+C:\bitacademy\Leerjaar 2\C# Novic\C# periode 6\obj\Debug\net6.0\oop.genruntimeconfig.cache
+C:\bitacademy\Leerjaar 2\C# Novic\C# periode 6\obj\Debug\net6.0\ref\oop.dll
